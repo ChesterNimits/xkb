@@ -795,6 +795,21 @@ xkb_symbols "colemak" {
     include "level3(ralt_switch)"
 };
 
+partial alphanumeric_keys 
+xkb_symbols "kvedulv" {
+    name[Group1]= "English (US, kvedulv)";
+    include "us(basic)"
+
+    key <AD03> { [ e,          E, EuroSign,   EuroSign   ] };
+    key <AC01> { [ a,          A, adiaeresis, Adiaeresis ] };
+    key <AD09> { [ o,          O, odiaeresis, Odiaeresis ] };
+    key <AD07> { [ u,          U, udiaeresis, Udiaeresis ] };
+    key <AC02> { [ s,          S, ssharp,     ssharp     ] };
+
+    include "level3(ralt_switch)"
+};
+
+
 // I do NOT like dead-keys - the International keyboard as defined by Microsoft
 // doesn't fit my needs. Why use two keystrokes for all simple characters (eg '
 // and <space> generates a single ') just to have an é (eacute) in two strokes
