@@ -651,3 +651,19 @@ xkb_symbols "ruu" {
 
     include "level3(ralt_switch)"
 };
+
+partial alphanumeric_keys
+xkb_symbols "kvedulv" {
+    include "ru(common)"
+
+    name[Group1]= "Russian (kvedulv)";
+
+    key <TLDE> { [ Cyrillic_io,       Cyrillic_IO,       Ukrainian_yi,              Ukrainian_YI ] };
+    key <AD12> { [ Cyrillic_hardsign, Cyrillic_HARDSIGN, apostrophe                              ] };
+    key <AC02> { [ Cyrillic_yeru,     Cyrillic_YERU,     Ukrainian_i,               Ukrainian_I  ] };
+    key <AC11> { [ Cyrillic_e,        Cyrillic_E,        Ukrainian_ie,              Ukrainian_IE ] };
+    key <AD07> { [ Cyrillic_ge,       Cyrillic_GE,       Ukrainian_ghe_with_upturn, Ukrainian_GHE_WITH_UPTURN  ] };
+    key <AD03> { [ Cyrillic_u,        Cyrillic_U,        Byelorussian_shortu,       Byelorussian_SHORTU ] };
+
+    include "level3(ralt_switch)"
+};

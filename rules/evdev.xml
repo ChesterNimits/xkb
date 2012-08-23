@@ -4191,6 +4191,12 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>kvedulv</name>
+            <description>Russian (kvedulv)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
