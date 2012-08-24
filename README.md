@@ -9,7 +9,7 @@ Czech É at ' (Russian Э) or Slovak Ä at F (Russian А).
 
 The layouts in detail:
 
-*us kvedulv
+* us kvedulv
 ```
 Alt-Gr + A = Ä
 Alt-Gr + O = Ö
@@ -18,7 +18,7 @@ Alt-Gr + S = ß
 Alt-Gr + E = €
 ```
 
-*us kvedulv-cz
+* us kvedulv-cz
 ```
 AltGr + A = Á
 AltGr + ' = É
@@ -37,7 +37,7 @@ AltGr + . = Ú
 AltGr + C = Č
 ```
 
-*us kvedulv-sk
+* us kvedulv-sk
 ```
 AltGr + A = Á
 AltGr + E = É
@@ -58,7 +58,7 @@ AltGr + R = Ŕ
 AltGr + C = Č
 ```
 
-*ru kvedulv
+* ru kvedulv
 ```
 AltGr + Ё = Ï
 AltGr + Ъ = '
