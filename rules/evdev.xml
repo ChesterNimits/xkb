@@ -1295,6 +1295,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>kvedulv-sk</name>
+            <description>English (US, kvedulv-sk)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>kvedulv-cz</name>
+            <description>English (US, kvedulv-cz)</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>dvorak</name>
             <description>English (Dvorak)</description>
           </configItem>

@@ -809,6 +809,55 @@ xkb_symbols "kvedulv" {
     include "level3(ralt_switch)"
 };
 
+partial alphanumeric_keys 
+xkb_symbols "kvedulv-sk" {
+    name[Group1]= "English (US, kvedulv-sk)";
+    include "us(basic)"
+
+    key <AC01> { [ a, A,          aacute,      Aacute ] };
+    key <AD03> { [ e, E,          eacute,      Eacute ] };
+    key <AD08> { [ i, I,          iacute,      Iacute ] };
+    key <AD09> { [ o, O,          ocircumflex, Ocircumflex ] };
+    key <AD07> { [ u, U,          uacute,      Uacute ] };
+    key <AD06> { [ y, Y,          yacute,      Yacute ] };
+    key <AC02> { [ s, S,          scaron,      Scaron ] };
+    key <AB01> { [ z, Z,          zcaron,      Zcaron ] };
+    key <AB03> { [ c, C,          ccaron,      Ccaron ] };
+    key <AD05> { [ t, T,          tcaron,      Tcaron ] };
+    key <AC03> { [ d, D,          dcaron,      Dcaron ] };
+    key <AB06> { [ n, N,          ncaron,      Ncaron ] };
+    key <AC09> { [ l, L,          lcaron,      Lcaron ] };
+    key <AE10> { [ 0, parenright, oacute,      Oacute ] };
+    key <AD04> { [ r, R,          racute,      Racute ] };
+    key <AC04> { [ f, F,          adiaeresis,  Adiaeresis ] };
+    key <AC08> { [ k, K,          lacute,      Lacute ] };
+
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys 
+xkb_symbols "kvedulv-cz" {
+    name[Group1]= "English (US, kvedulv-cz)";
+    include "us(basic)"
+
+    key <AC01> { [ a,          A,        aacute, Aacute ] };
+    key <AD03> { [ e,          E,        ecaron, Ecaron ] };
+    key <AD08> { [ i,          I,        iacute, Iacute ] };
+    key <AD09> { [ o,          O,        oacute, Oacute ] };
+    key <AD07> { [ u,          U,        uring,  Uring  ] };
+    key <AD06> { [ y,          Y,        yacute, Yacute ] };
+    key <AC02> { [ s,          S,        scaron, Scaron ] };
+    key <AB01> { [ z,          Z,        zcaron, Zcaron ] };
+    key <AB03> { [ c,          C,        ccaron, Ccaron ] };
+    key <AD04> { [ r,          R,        rcaron, Rcaron ] };
+    key <AD05> { [ t,          T,        tcaron, Tcaron ] };
+    key <AC03> { [ d,          D,        dcaron, Dcaron ] };
+    key <AB06> { [ n,          N,        ncaron, Ncaron ] };
+    key <AC11> { [ apostrophe, quotedbl, eacute, Eacute ] };
+    key <AB09> { [ period,     greater,  uacute, Uacute ] };
+
+    include "level3(ralt_switch)"
+};
 
 // I do NOT like dead-keys - the International keyboard as defined by Microsoft
 // doesn't fit my needs. Why use two keystrokes for all simple characters (eg '

@@ -279,6 +279,8 @@
   alt-intl        us: English (US, alternative international)
   colemak         us: English (Colemak)
   kvedulv         us: English (US, kvedulv)
+  kvedulv-sk      us: English (US, kvedulv-sk)
+  kvedulv-cz      us: English (US, kvedulv-cz)
   dvorak          us: English (Dvorak)
   dvorak-intl     us: English (Dvorak international with dead keys)
   dvorak-alt-intl us: English (Dvorak alternative international no dead keys)
