@@ -817,7 +817,7 @@ xkb_symbols "colemak" {
     include "level3(ralt_switch)"
 };
 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "kvedulv" {
     name[Group1]= "English (US, kvedulv)";
     include "us(basic)"
@@ -831,7 +831,7 @@ xkb_symbols "kvedulv" {
     include "level3(ralt_switch)"
 };
 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "kvedulv-sk" {
     name[Group1]= "English (US, kvedulv-sk)";
     include "us(basic)"
@@ -857,7 +857,7 @@ xkb_symbols "kvedulv-sk" {
     include "level3(ralt_switch)"
 };
 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "kvedulv-cz" {
     name[Group1]= "English (US, kvedulv-cz)";
     include "us(basic)"
