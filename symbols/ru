@@ -664,6 +664,7 @@ xkb_symbols "kvedulv" {
     key <AC11> { [ Cyrillic_e,        Cyrillic_E,        Ukrainian_ie,              Ukrainian_IE ] };
     key <AD07> { [ Cyrillic_ge,       Cyrillic_GE,       Ukrainian_ghe_with_upturn, Ukrainian_GHE_WITH_UPTURN  ] };
     key <AD03> { [ Cyrillic_u,        Cyrillic_U,        Byelorussian_shortu,       Byelorussian_SHORTU ] };
+    key <AB10> { [ period,            comma ] };
 
     include "level3(ralt_switch)"
 };
